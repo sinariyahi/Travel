@@ -1,0 +1,92 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 6em;
+}
+header p {
+  font-size: 2em;
+}
+header .bars {
+  display: none;
+}
+header .menu {
+  margin-top: 1em;
+}
+header .menu a {
+  text-decoration: none;
+  margin-left: 1em;
+  color: black;
+  font-size: 1.5em;
+}
+header .menu a:hover {
+  color: #7e3d00;
+}
+header .menu .btn1 {
+  background-color: #7e3d00;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+}
+header .menu .btn1:hover {
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section nav h1 {
+  font-size: 4em;
+  color: #7e3d00;
+}
+section nav h2 {
+  font-size: 4em;
+  margin-top: 1rem;
+}
+section nav p {
+  font-size: 2em;
+  margin-top: 1rem;
+}
+section nav .btn2 {
+  margin-top: 1rem;
+  padding: 14px 32px;
+  border-radius: 4px;
+  border: none;
+  background-color: #7e3d00;
+  font-size: 1rem;
+  position: absolute;
+  cursor: pointer;
+}
+section nav .btn2::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: black;
+  transition: all 0.3s;
+  border-radius: 4px;
+}
+section nav .btn2:hover::after {
+  width: 100%;
+}
+section nav .btn2 a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+section nav img {
+  height: 40em;
+  width: 36em;
+}/*# sourceMappingURL=style.css.map */
